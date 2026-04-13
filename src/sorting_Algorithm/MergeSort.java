@@ -25,12 +25,11 @@ public class MergeSort {
             if (arr[left] <= arr[right]) {
                 temp[index] = arr[left];
                 left++;
-                index++;
             } else {
                 temp[index] = arr[right];
                 right++;
-                index++;
             }
+            index++;
         }
         while (left <= mid) {
             temp[index] = arr[left];
