@@ -7,7 +7,7 @@ public class PairSumClosestTo0 {
     public static int closestToZero(int[] arr, int n) {
         Arrays.sort(arr);
         int left = 0;
-        int right = arr.length - 1;
+        int right = n - 1;
         int closestSum = Integer.MAX_VALUE;
         while (left < right) {
             int sum = arr[left] + arr[right];

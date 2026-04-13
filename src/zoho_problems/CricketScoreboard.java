@@ -1,5 +1,7 @@
 package zoho_problems;
 
+import java.util.Objects;
+
 public class CricketScoreboard {
 
     public static void calculateScores(String[] input) {
@@ -9,13 +11,11 @@ public class CricketScoreboard {
         int nonStrike = 1;
         int nextPlayer = 2;
         for (String ball : input) {
-            if (ball == "WD") {
+            if (Objects.equals(ball, "WD")) {
                 extras++;
-            } else if (ball == "W") {
+            } else if (Objects.equals(ball, "W")) {
                 currentStrike = nextPlayer;
                 nextPlayer++;
-            } else if (ball.equals("0") || ball.equals(".")) {
-                continue;
             } else {
                 int runs = Integer.parseInt(ball);
                 players[currentStrike] += runs;

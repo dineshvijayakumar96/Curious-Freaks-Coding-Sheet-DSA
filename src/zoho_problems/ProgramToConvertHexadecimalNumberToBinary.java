@@ -5,7 +5,7 @@ import java.math.BigInteger;
 public class ProgramToConvertHexadecimalNumberToBinary {
 
     public static String hexToBin(String hexadecimal) {
-        StringBuilder result = new StringBuilder("");
+        StringBuilder result = new StringBuilder();
         for (char c : hexadecimal.toCharArray()) {
             String binary = switch (c) {
                 case '0' -> "0000";

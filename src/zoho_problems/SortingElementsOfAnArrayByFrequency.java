@@ -9,11 +9,11 @@ public class SortingElementsOfAnArrayByFrequency {
 
     public static int[] sort(int[] A) {
         if (A.length == 0) return A;
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int num : A) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         for (int num : A) {
             list.add(num);
         }

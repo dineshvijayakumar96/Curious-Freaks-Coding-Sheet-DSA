@@ -5,8 +5,7 @@ import java.util.*;
 public class SortTheArrayBasedOnTheMinimumFactor {
 
     public static int[] sortMinimumFactors(int[] arr) {
-        int n = arr.length;
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         for (int num : arr) {
             list.add(num);
         }

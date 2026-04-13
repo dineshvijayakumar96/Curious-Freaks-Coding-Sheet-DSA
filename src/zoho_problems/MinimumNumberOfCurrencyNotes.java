@@ -5,11 +5,11 @@ public class MinimumNumberOfCurrencyNotes {
     public static void countNotes(int amount) {
         if (amount <= 0) return;
         int[] currencyNotes = { 2000, 500, 200, 100, 50, 20, 10, 5, 1 };
-        for (int i = 0; i < currencyNotes.length; i++) {
-            if (amount >= currencyNotes[i]) {
-                int count = amount / currencyNotes[i];
-                amount = amount % currencyNotes[i];
-                System.out.println(currencyNotes[i] + " : " + count);
+        for (int currencyNote : currencyNotes) {
+            if (amount >= currencyNote) {
+                int count = amount / currencyNote;
+                amount = amount % currencyNote;
+                System.out.println(currencyNote + " : " + count);
             }
         }
     }

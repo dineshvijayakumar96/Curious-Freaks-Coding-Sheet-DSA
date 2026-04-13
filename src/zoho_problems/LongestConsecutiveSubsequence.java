@@ -6,7 +6,6 @@ public class LongestConsecutiveSubsequence {
 
     public static int longestConsecutive(int[] arr) {
         if (arr == null || arr.length == 0) return 0;
-        int n = arr.length;
         HashSet<Integer> set = new HashSet<>();
         int min = Integer.MAX_VALUE;
         int longestStreak = 0;

@@ -4,7 +4,6 @@ public class NumberOfOccurrence {
 
     public static int countFreq(int[] arr, int target) {
         if (arr == null || arr.length == 0) return 0;
-        int n = arr.length;
         int count = 0;
         for (int num : arr) {
             if (num == target) {

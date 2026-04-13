@@ -6,7 +6,6 @@ public class SortElementsOnTheBasisOfNumberOfFactors {
 
     public static int[] sortByFactors(int[] arr) {
         if (arr == null || arr.length == 0) return arr;
-        int n = arr.length;
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int k : arr) {
             map.put(k, getFactors(k));
