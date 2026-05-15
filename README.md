@@ -23,25 +23,31 @@ The solutions are cleanly organized into packages covering the following core al
 * **📊 Sorting:** Algorithmic techniques for ordering data efficiently.
 * **✌️ Two Pointers:** Optimized array and string traversal techniques.
 * **🪟 Sliding Window:** Fixed and variable-size window techniques for subarray/substring problems.
+* **🏢 Zoho Problems:** A large collection of specialized solutions for problems frequently encountered in Zoho technical recruitment rounds.
 
 ## 🛠️ Repository Structure
 
 The repository is structured logically by topic to make navigation seamless. Here is the layout of the project:
 
 ```text
-📂 CuriousFreaksCodingSheet/
-├── 📁 Basic Math/
-├── 📁 Binary Search/
-├── 📁 Matrix/
-├── 📁 Pattern/
-├── 📁 Prefix Sum/
-├── 📁 Recursion/
-├── 📁 Sliding Window/
-├── 📁 Sorting/
-├── 📁 String/
-├── 📁 Sub-Array/
-└── 📁 Two Pointers/
-    └── 📄 Solution.java
+📂 Curious-Freaks-Coding-Sheet-DSA/
+├── 📁 src/
+│   ├── 📁 array/
+│   ├── 📁 basics/
+│   ├── 📁 binary_search/
+│   ├── 📁 linkedList/
+│   ├── 📁 matrix/
+│   ├── 📁 queue/
+│   ├── 📁 recursion/
+│   ├── 📁 sliding_window/
+│   ├── 📁 sorting_algorithm/
+│   ├── 📁 stack_data_structure/
+│   └── 📁 zoho_problems/
+│       ├── 📄 AddDigits.java
+│       ├── 📄 DecodeTheString.java
+│       └── 📄 ... (100+ Problems)
+├── 📄 .gitignore
+└── 📄 README.md
 ```
 
 ## 💡 About the Solutions
